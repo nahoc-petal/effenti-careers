@@ -1,0 +1,17 @@
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale; }
+
+.eff__careers .eff__hero {
+  background-image: url("../images/bg-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+.eff__careers .eff__tabs a {
+  padding: 2.8em 4em 2.3em;
+  font-size: 13px;
+  letter-spacing: 1px; }
+.eff__careers .eff__heading {
+  padding: 140px 8vw; }
+
+/*# sourceMappingURL=style.css.map */
