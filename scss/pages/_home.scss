@@ -1,0 +1,61 @@
+#eff__home {
+    .eff__newsletter {
+        padding-top: 57px;
+        padding-bottom: 57px;
+        margin-bottom: 111px;
+        h2 {
+            padding-bottom: 22px;
+        }
+    }
+    .eff__blog {
+        margin-bottom: 111px;
+        h5 {
+            margin-bottom: 0.45em;
+        }
+        h2 {
+            margin-bottom: 30px;
+        }
+        .eff__thumbnail {
+            border-radius: 4px;
+            margin-bottom: 1.4em;
+        }
+    }
+    .eff__courses {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .eff__quote {
+        h4 {
+            margin-top: 28px;
+            font-size: 42px;
+            font-family: "Ubuntu", sans-serif;
+        }
+        p {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 300;
+            font-size: 19px;
+        }
+        h5 {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 400;
+            margin-top: 0.3em;
+            font-size: 11px;
+            line-height: 1.3em;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        h3 {
+            font-family: "Ubuntu", sans-serif;
+            font-weight: 500;
+            font-size: 19px;
+            letter-spacing: -0.2px;
+        }
+        img {
+            margin-top: 30px;
+            margin-bottom: 30px;
+            border-radius: 100px;
+        }
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+}

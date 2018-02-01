@@ -1,0 +1,30 @@
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+$primary: #e74c3c;
+$secondary: #363636;
+
+.eff__careers {
+    .eff__hero {
+        background-image: url('../images/bg-1.jpg');
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .eff__tabs {
+        .is-active a {
+            border-bottom-color: $primary;
+            color: $primary;
+        }
+        a {
+            padding: 2.8em 4em 2.3em;
+            font-size: 13px;
+            letter-spacing: 1px;
+        }
+    }
+    .eff__heading {
+        padding: 140px 8vw;
+    }
+}

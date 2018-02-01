@@ -1,0 +1,177 @@
+body {
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.main {
+    margin-top: 56px;
+}
+
+.has-text-centered {
+    text-align: center;
+}
+
+.is-white {
+    color: $white;
+}
+
+.is-text {
+    color: $text;
+}
+
+.eff__bg--primary {
+    background-color: $primary;
+}
+
+.eff__button--primary {
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    text-transform: uppercase;
+    background-color: $primary;
+    color: $white;
+    padding: 1.8em 6.5em;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1.5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 1.7px;
+    -webkit-appearance: none;
+    cursor: pointer;
+    display: inline-block;
+    white-space: nowrap;
+    height: auto;
+    border-width: 0;
+    border-radius: 3px;
+    &:hover {
+        text-decoration: none;
+        background-color: $yellow;
+        color: $white;
+    }
+}
+
+.eff__bg--light {
+    background-image: url('./../images/bg_light.jpg');
+    background-position: top left;
+    background-repeat: repeat;
+    border-radius: 4px;
+}
+
+.eff__bg--dark {
+    background-image: url('./../images/bg_dark.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eff__bg--red {
+    background-image: url('./../images/bg_red.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.eff__bg--secondary {
+    background-color: $secondary;
+}
+
+.eff__input--big {
+    width: 100%;
+    padding: 1em 13em 1em 1em;
+    vertical-align: top;
+    -webkit-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: 28px;
+    border: none;
+    font-size: 13px;
+    font-weight: 400;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+    letter-spacing: 0px;
+    border-radius: 3px;
+    background-color: $white;
+    color: #909297;
+}
+
+.eff__top-line--primary::before {
+    background-color: $primary;
+    display: block;
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -14px;
+    width: 28px;
+    height: 2px;
+}
+
+.eff__top-line--white::before {
+    background-color: $white;
+    display: block;
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -14px;
+    width: 28px;
+    height: 2px;
+}
+
+.eff__arrow-right--primary::after {
+    position: relative;
+    content: '→';
+    font-family: "Ubuntu", sans-serif;
+    display: inline-block;
+    font-size: 22px;
+    font-weight: 700;
+    margin-left: 15px;
+    color: $primary;
+}
+
+.eff__h2 {
+    padding-top: 0.92em;
+    font-weight: 700;
+    letter-spacing: -0.4px;
+    line-height: 1.2em;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 1.563em;
+    font-style: normal;
+    text-decoration: none;
+    text-transform: none;
+}
+
+.eff__link {
+    color: $text;
+    -webkit-transition: all 0.2s ease;
+    -ms-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+    outline: 0;
+    text-decoration: none;
+    background: transparent;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    border: 0;
+    outline: 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.eff__date {
+    color: #797979;
+    font-family: "Ubuntu", sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+    letter-spacing: 1.3px;
+    text-transform: uppercase;
+}
+
+.margin-auto {
+    margin: auto;
+}
